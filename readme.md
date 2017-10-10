@@ -1,24 +1,36 @@
-I'm making fun codestuff! sweet
+# I'm making fun codestuff! sweet
 awesome!
 
 
-
-Git status
+## Git commands
 Untracked --> Unstaged --> Staged --> Committed --> Pushed
 
-Untracked to unstaged
-git add -N .
-git add -N folder
-git add -N filename.txt
+* add SSH url - only have to do this once to set up
+    ```sh
+    git remote add origin <Github ssh url>
+    ```
+* what is happening?
+    ```sh
+    git status
+    ```
+* Untracked to unstaged
+    ```sh
+    git add -N .
+    git add -N folder
+    git add -N filename.txt
+    ```
 
-Unstaged to staged
-git add -p (p refers to "patches" of code) Y/N/Q
+* Unstaged to staged
+    ```sh
+    git add -p # (p refers to "patches" of code) Y/N/Q
+    ```
 
-Staged to committed
-git commit -m (m refers to "message") "Add a description"
+* Staged to committed
+    ```sh
+    git commit -m "Add a description" # (m refers to "message")
+    ```
 
-Committed to pushed
-git push origin (where?) master (whut?)
-
-SSH
-git remote add origin ("Github") <ssh url>
+* Committed to pushed
+    ```sh
+    git push origin master # origin is where, master is what
+    ```
