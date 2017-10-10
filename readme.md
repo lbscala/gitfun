@@ -34,3 +34,8 @@ Untracked --> Unstaged --> Staged --> Committed --> Pushed
     ```sh
     git push origin master # origin is where, master is what
     ```
+
+* Show past commits
+    ```sh
+    git log --oneline --graph --decorate --all
+    ```
